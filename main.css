@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 8px;
-    background-color: #000000;
+
 }
 
 header h1 {
@@ -12,7 +12,7 @@ header h1 {
 }
 
 header time {
-    color: #ffffff;
+    color: #000;
     font-size: x-small;
 }
 
@@ -68,7 +68,7 @@ section h2,
 
 .article article a {
     background-color: rgb(161, 107, 211);
-    color: aliceblue;
+    color: #000;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
@@ -76,7 +76,7 @@ section h2,
 }
 
 .container h2 {
-    color: #ffffff;
+    color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -85,7 +85,7 @@ section h2,
 .article article a,
 .article article h3 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #000;
 }
 
 #Esportes .article article a {
@@ -102,5 +102,21 @@ section h2,
 
 #Entretenimento .article article a {
     background-color: #AE3ED8;
+}
+
+#Esportes {
+    background-color: #bbe87d85;
+}
+
+#Economia {
+    background-color: #d8ce3eaa;
+}
+
+#Tecnologia {
+    background-color: #3e88d898;
+}
+
+#Entretenimento {
+    background-color: #af3ed871;
 }
 
